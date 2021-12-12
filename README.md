@@ -47,7 +47,14 @@ void f(const int i)
 }
 const int g()
 {return 1;}
+
 ```
+### others to know  :
+* const iterators 
+* const cast 
+* const overloading 
+___
+
 ## uses of &  *(ampersand)* :
 
 
