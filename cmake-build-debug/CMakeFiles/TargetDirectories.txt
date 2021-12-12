@@ -1,0 +1,3 @@
+C:/Users/Mariam mohamed/markdown/task-markdown/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Mariam mohamed/markdown/task-markdown/cmake-build-debug/CMakeFiles/task_markdown.dir
+C:/Users/Mariam mohamed/markdown/task-markdown/cmake-build-debug/CMakeFiles/rebuild_cache.dir
