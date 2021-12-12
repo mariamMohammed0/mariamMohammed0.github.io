@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Mariam mohamed/markdown/task-markdown/main.cpp" "C:/Users/Mariam mohamed/markdown/task-markdown/cmake-build-debug/CMakeFiles/task_markdown.dir/main.cpp.obj"
-  "C:/Users/Mariam mohamed/markdown/task-markdown/markdownn.cpp" "C:/Users/Mariam mohamed/markdown/task-markdown/cmake-build-debug/CMakeFiles/task_markdown.dir/markdownn.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

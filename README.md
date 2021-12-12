@@ -64,18 +64,7 @@ int* ptr = &x;
 // ptr will now point to x, as &x is the address of x
 ```
 
-### pass an argument by reference to a function
-```c++
-void foo(CDummy& x);
-void fooconst(const CDummy& x);
-//passing  x by reference
-//if you modify x inside the function, the change will be applied to the 
-// original variable
-//a copy is not created for x, the original one is used
-//this is preffered for passing large objects
-//to prevent changes, pass by const reference:
 
-```
 
 ### Use *&&* in a logical expression
    it is the way to say and. 
@@ -84,16 +73,27 @@ int i =0;
 while ( i >0 && i<9) // work when both statements are true 
     {cout << "hello ";} 
 ```
+### Use & as a bitwise operator:
+ It is  an infix operator that takes two numbers as inputs 
+ and doing an AND on each of the bit pairs of the inputs.
+
+### declare a reference variable
+
+```c++
+int A = 0;
+int& B = A;
+//b is a reference to A
+B = 3;
+
+```
+This doesn't just mean that both A and B will have the same value,
+but they will actually point to the same place in the memory.
 
 
 
-3) declare a reference variable
 
-int k = 0;
-int& r = k;
-//r is a reference to k
-r = 3;
-assert( k == 3 );
-4) bitwise and operator
-
-int a = 3 & 1; // a = 1
+### others to know  :
+* Use && for declaring rvalue references
+* Use && for declaring universal references
+* Use & or && for function overloading
+* pass an argument by reference to a function

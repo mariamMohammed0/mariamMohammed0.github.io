@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/task_markdown.dir/main.cpp.obj"
-  "CMakeFiles/task_markdown.dir/markdownn.cpp.obj"
   "libtask_markdown.dll.a"
   "task_markdown.exe"
   "task_markdown.exe.manifest"

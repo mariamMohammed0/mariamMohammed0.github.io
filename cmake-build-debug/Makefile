@@ -152,30 +152,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_markdown.dir\build.make CMakeFiles/task_markdown.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-markdownn.obj: markdownn.cpp.obj
-.PHONY : markdownn.obj
-
-# target to build an object file
-markdownn.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_markdown.dir\build.make CMakeFiles/task_markdown.dir/markdownn.cpp.obj
-.PHONY : markdownn.cpp.obj
-
-markdownn.i: markdownn.cpp.i
-.PHONY : markdownn.i
-
-# target to preprocess a source file
-markdownn.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_markdown.dir\build.make CMakeFiles/task_markdown.dir/markdownn.cpp.i
-.PHONY : markdownn.cpp.i
-
-markdownn.s: markdownn.cpp.s
-.PHONY : markdownn.s
-
-# target to generate assembly for a file
-markdownn.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task_markdown.dir\build.make CMakeFiles/task_markdown.dir/markdownn.cpp.s
-.PHONY : markdownn.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -188,9 +164,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... markdownn.obj
-	@echo ... markdownn.i
-	@echo ... markdownn.s
 .PHONY : help
 
 
