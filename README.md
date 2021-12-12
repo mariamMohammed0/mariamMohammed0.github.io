@@ -5,7 +5,7 @@
   modify its data items value. 
 
 
-###Documentation and Safety: 
+### Documentation and Safety: 
 
 * The primary purpose of const is to provide documentation and prevent programming mistakes. 
   Moreover, it has the added benefit that anything that you declare const 
@@ -14,11 +14,11 @@
 * When working with a team of programmers declaring const is a good way to show 
   that the variable shouldn't be modified 
 
- ###speed improvement :
+ ### speed improvement :
   since the compiler knows for certain it can omit certain things that are only
   relevant if the parameter can change
 
-###Const Pointers: 
+### Const Pointers: 
 Pointers can be declared using const keyword .  
 we can do it in two ways, either we can apply const
 to what the pointer is pointing to, or make the pointer itself a constant.
